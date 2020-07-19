@@ -1,0 +1,425 @@
+{
+  "success": true,
+  "data": [
+    {
+      "sport_key": "aussierules_afl",
+      "sport_nice": "AFL",
+      "teams": [
+        "Carlton Blues",
+        "Port Adelaide Power"
+      ],
+      "commence_time": 1595127900,
+      "home_team": "Carlton Blues",
+      "sites": [
+        {
+          "site_key": "sportsbet",
+          "site_nice": "SportsBet",
+          "last_update": 1595122662,
+          "odds": {
+            "h2h": [
+              2.75,
+              1.45
+            ]
+          }
+        },
+        {
+          "site_key": "beteasy",
+          "site_nice": "Bet Easy",
+          "last_update": 1595122618,
+          "odds": {
+            "h2h": [
+              2.8,
+              1.46
+            ]
+          }
+        },
+        {
+          "site_key": "tab",
+          "site_nice": "TAB",
+          "last_update": 1595122657,
+          "odds": {
+            "h2h": [
+              2.7,
+              1.47
+            ]
+          }
+        },
+        {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1595122665,
+          "odds": {
+            "h2h": [
+              2.86,
+              1.53
+            ],
+            "h2h_lay": [
+              2.88,
+              1.54
+            ]
+          }
+        },
+        {
+          "site_key": "pointsbetau",
+          "site_nice": "PointsBet (AU)",
+          "last_update": 1595122639,
+          "odds": {
+            "h2h": [
+              2.75,
+              1.45
+            ]
+          }
+        },
+        {
+          "site_key": "neds",
+          "site_nice": "Neds",
+          "last_update": 1595122623,
+          "odds": {
+            "h2h": [
+              2.75,
+              1.5
+            ]
+          }
+        },
+        {
+          "site_key": "ladbrokes",
+          "site_nice": "Ladbrokes",
+          "last_update": 1595122600,
+          "odds": {
+            "h2h": [
+              2.75,
+              1.5
+            ]
+          }
+        },
+        {
+          "site_key": "unibet",
+          "site_nice": "Unibet",
+          "last_update": 1595122618,
+          "odds": {
+            "h2h": [
+              2.75,
+              1.46
+            ]
+          }
+        }
+      ],
+      "sites_count": 8
+    },
+    {
+      "sport_key": "aussierules_afl",
+      "sport_nice": "AFL",
+      "teams": [
+        "Hawthorn Hawks",
+        "Melbourne Demons"
+      ],
+      "commence_time": 1595136900,
+      "home_team": "Hawthorn Hawks",
+      "sites": [
+        {
+          "site_key": "unibet",
+          "site_nice": "Unibet",
+          "last_update": 1595122618,
+          "odds": {
+            "h2h": [
+              1.8,
+              2.05
+            ]
+          }
+        },
+        {
+          "site_key": "beteasy",
+          "site_nice": "Bet Easy",
+          "last_update": 1595122618,
+          "odds": {
+            "h2h": [
+              1.81,
+              2.05
+            ]
+          }
+        },
+        {
+          "site_key": "tab",
+          "site_nice": "TAB",
+          "last_update": 1595122657,
+          "odds": {
+            "h2h": [
+              1.8,
+              2.05
+            ]
+          }
+        },
+        {
+          "site_key": "ladbrokes",
+          "site_nice": "Ladbrokes",
+          "last_update": 1595122600,
+          "odds": {
+            "h2h": [
+              1.85,
+              2.05
+            ]
+          }
+        },
+        {
+          "site_key": "neds",
+          "site_nice": "Neds",
+          "last_update": 1595122623,
+          "odds": {
+            "h2h": [
+              1.85,
+              2.05
+            ]
+          }
+        },
+        {
+          "site_key": "sportsbet",
+          "site_nice": "SportsBet",
+          "last_update": 1595122662,
+          "odds": {
+            "h2h": [
+              1.8,
+              2.0
+            ]
+          }
+        },
+        {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1595122665,
+          "odds": {
+            "h2h": [
+              1.86,
+              2.14
+            ],
+            "h2h_lay": [
+              1.87,
+              2.16
+            ]
+          }
+        },
+        {
+          "site_key": "pointsbetau",
+          "site_nice": "PointsBet (AU)",
+          "last_update": 1595122639,
+          "odds": {
+            "h2h": [
+              1.75,
+              2.08
+            ]
+          }
+        }
+      ],
+      "sites_count": 8
+    },
+    {
+      "sport_key": "aussierules_afl",
+      "sport_nice": "AFL",
+      "teams": [
+        "Fremantle Dockers",
+        "West Coast Eagles"
+      ],
+      "commence_time": 1595147700,
+      "home_team": "Fremantle Dockers",
+      "sites": [
+        {
+          "site_key": "unibet",
+          "site_nice": "Unibet",
+          "last_update": 1595122618,
+          "odds": {
+            "h2h": [
+              3.35,
+              1.33
+            ]
+          }
+        },
+        {
+          "site_key": "beteasy",
+          "site_nice": "Bet Easy",
+          "last_update": 1595122618,
+          "odds": {
+            "h2h": [
+              3.6,
+              1.31
+            ]
+          }
+        },
+        {
+          "site_key": "tab",
+          "site_nice": "TAB",
+          "last_update": 1595122657,
+          "odds": {
+            "h2h": [
+              3.3,
+              1.33
+            ]
+          }
+        },
+        {
+          "site_key": "neds",
+          "site_nice": "Neds",
+          "last_update": 1595122623,
+          "odds": {
+            "h2h": [
+              3.4,
+              1.36
+            ]
+          }
+        },
+        {
+          "site_key": "ladbrokes",
+          "site_nice": "Ladbrokes",
+          "last_update": 1595122600,
+          "odds": {
+            "h2h": [
+              3.4,
+              1.36
+            ]
+          }
+        },
+        {
+          "site_key": "sportsbet",
+          "site_nice": "SportsBet",
+          "last_update": 1595122662,
+          "odds": {
+            "h2h": [
+              3.4,
+              1.3
+            ]
+          }
+        },
+        {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1595122665,
+          "odds": {
+            "h2h": [
+              3.65,
+              1.37
+            ],
+            "h2h_lay": [
+              3.7,
+              1.38
+            ]
+          }
+        },
+        {
+          "site_key": "pointsbetau",
+          "site_nice": "PointsBet (AU)",
+          "last_update": 1595122639,
+          "odds": {
+            "h2h": [
+              3.4,
+              1.32
+            ]
+          }
+        }
+      ],
+      "sites_count": 8
+    },
+    {
+      "sport_key": "aussierules_afl",
+      "sport_nice": "AFL",
+      "teams": [
+        "Adelaide Crows",
+        "St Kilda Saints"
+      ],
+      "commence_time": 1595238000,
+      "home_team": "Adelaide Crows",
+      "sites": [
+        {
+          "site_key": "unibet",
+          "site_nice": "Unibet",
+          "last_update": 1595122618,
+          "odds": {
+            "h2h": [
+              1.18,
+              7.00
+            ]
+          }
+        },
+        {
+          "site_key": "beteasy",
+          "site_nice": "Bet Easy",
+          "last_update": 1595122618,
+          "odds": {
+            "h2h": [
+              1.18,
+              1.34
+            ]
+          }
+        },
+        {
+          "site_key": "tab",
+          "site_nice": "TAB",
+          "last_update": 1595122657,
+          "odds": {
+            "h2h": [
+              3.1,
+              1.37
+            ]
+          }
+        },
+        {
+          "site_key": "neds",
+          "site_nice": "Neds",
+          "last_update": 1595122623,
+          "odds": {
+            "h2h": [
+              3.25,
+              1.38
+            ]
+          }
+        },
+        {
+          "site_key": "ladbrokes",
+          "site_nice": "Ladbrokes",
+          "last_update": 1595122600,
+          "odds": {
+            "h2h": [
+              3.25,
+              1.38
+            ]
+          }
+        },
+        {
+          "site_key": "betfair",
+          "site_nice": "Betfair",
+          "last_update": 1595122665,
+          "odds": {
+            "h2h": [
+              3.55,
+              1.39
+            ],
+            "h2h_lay": [
+              3.6,
+              1.4
+            ]
+          }
+        },
+        {
+          "site_key": "pointsbetau",
+          "site_nice": "PointsBet (AU)",
+          "last_update": 1595122639,
+          "odds": {
+            "h2h": [
+              3.45,
+              1.32
+            ]
+          }
+        },
+        {
+          "site_key": "sportsbet",
+          "site_nice": "SportsBet",
+          "last_update": 1595122662,
+          "odds": {
+            "h2h": [
+              3.5,
+              1.31
+            ]
+          }
+        }
+      ],
+      "sites_count": 8
+    }
+  ]
+}
