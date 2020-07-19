@@ -25,7 +25,8 @@ class Aribitrage
   protected function CalculateArbitrage()
   {
     //Leave half the cash remaining
-    $total_cash = $this->GetRemaningCash() / 2;
+    $total_cash = $this->GetCurrentCash() / 2;
+
     foreach ($this->odds['data'] as $game) {
       $team1 = [];
       $team2 = [];
@@ -47,9 +48,12 @@ class Aribitrage
             if ($arbitrage < 100) {
 
               $hash = md5(implode(', ', $game['teams']).$game['sites'][$key1]['site_key'].$game['sites'][$key2]['site_key'].$game['commence_time']);
+              $profit = abs((($total_cash * ($arbitrage/100)) - $total_cash));
+
+
 
               if (is_null($this->CheckHash($hash))) {
-                $this->AddToGames([
+                $game = $this->AddToGames([
                   'hash' => $hash,
                   'team1' => $game['teams'][0],
                   'team1_odds' => number_format($t1, 2),
@@ -57,7 +61,14 @@ class Aribitrage
                   'team2' => $game['teams'][1],
                   'team2_odds' => number_format($t2, 2),
                   'team2_amount' => number_format(abs(($total_cash * ($a2/100)) / ($arbitrage/100)),2),
-                  'total_profit' => abs((($total_cash * ($arbitrage/100)) - $total_cash))
+                  'total_profit' => $profit
+                ]);
+                $this->AddToLedger([
+                  'game_id' => $game,
+                  'cost' => $total_cash,
+                  'profit' =>  $profit,
+                  'placed_at' => date('Y-m-d H:i:s'),
+                  'paid_at' => $this->FormatDate($game['commence_time'])
                 ]);
               }
               // echo $game['sites'][$key1]['site_key'] . ' vs ' . $game['sites'][$key2]['site_key']  . ' @ ' . number_format($t1, 2) . ' vs ' . number_format($t2, 2) . ' = ' . $arbitrage ."\n";
@@ -72,9 +83,14 @@ class Aribitrage
     }
   }
 
-  protected function GetRemaningCash()
+  protected function GetCurrentCash()
   {
 
+  }
+
+  protected function AddToLedger($data)
+  {
+    $this->database->insert('ledger', $data);
   }
 
   protected function AddToGames($data)
@@ -94,13 +110,18 @@ class Aribitrage
 
   }
 
-const BASE_BET = 500;
+  protected function FormatDate($time)
+  {
+    $date = new DateTime();
+    $date->setTimestamp($time);
+    $date->add(new DateInterval('PT' . 160 . 'M'));
 
-$odds = json_decode(file_get_contents('odds.json'), true);
+    return $date->format('Y-m-d H:i:s');
+  }
 
+// const BASE_BET = 500;
 
-
-
+// $odds = json_decode(file_get_contents('odds.json'), true);
 
 }
 
