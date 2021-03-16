@@ -33,7 +33,6 @@ class Aribitrage
 
   protected function CalculateArbitrage()
   {
-
     //Loop over each game
     foreach ($this->odds['data'] as $game) {
       $team1 = [];
